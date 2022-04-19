@@ -14,7 +14,8 @@ pr:
     include:
     - environment_setup/tf-templates/*
 
-pool: Default
+pool:
+  vmImage: 'ubuntu-latest'
 
 
 variables:
